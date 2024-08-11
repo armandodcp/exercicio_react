@@ -23,5 +23,4 @@
 
 .campo input::placeholder {
     color: var(--corSecundaria);
-    font-weight: bold;
 }

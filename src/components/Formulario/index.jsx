@@ -44,11 +44,11 @@ const Formulario = ({ calcularIMC }) => {
         <form className="formulario-container">
             <div className={styles.campo}>
                 <label>Altura (ex.: 1,70)</label>
-                <input type="number" value={altura} onChange={alterarAltura} />
+                <input type="number" placeholder="Metros" value={altura} onChange={alterarAltura} />
             </div>
             <div className={styles.campo}>
                 <label>Peso (ex.: 58,2)</label>
-                <input type="number" value={peso} onChange={alterarPeso} />
+                <input type="number" placeholder="Quilos" value={peso} onChange={alterarPeso} />
             </div>
         </form>
     )
