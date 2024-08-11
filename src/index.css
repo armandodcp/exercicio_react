@@ -1,0 +1,27 @@
+:root {
+  --corPrincipal: #1f5eaf;
+  --corSecundaria: #ddd;
+  --corTexto: #707070;
+  --corDestaque: #ebfdea;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  border: 1px solid var(--corSecundaria);
+  margin: 40px auto;
+  padding-bottom: 80px;
+  border-radius: 8px;
+  width: 960px;
+  max-width: 100%;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+}

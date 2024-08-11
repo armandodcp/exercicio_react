@@ -1,0 +1,27 @@
+.formulario-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo label {
+    color: var(--corPrincipal);
+    font-size: 12px;
+}
+
+.campo input {
+    border: solid 1px var(--corSecundaria);
+    border-radius: 14px;
+    text-align: center;
+}
+
+.campo input::placeholder {
+    color: var(--corSecundaria);
+    font-weight: bold;
+}
